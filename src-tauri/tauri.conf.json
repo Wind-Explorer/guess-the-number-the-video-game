@@ -36,8 +36,8 @@
     "windows": [
       {
         "fullscreen": false,
-        "resizable": true,
-        "title": "guess-the-number-the-video-game",
+        "resizable": false,
+        "title": "Guess The Number: The Video Game",
         "width": 800,
         "height": 600
       }
