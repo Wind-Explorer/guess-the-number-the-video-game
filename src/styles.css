@@ -1,7 +1,12 @@
 :root {
   font-family: sans-serif;
-  background-color: rgba(255, 204, 76, 120);
-  color: rgba(102, 69, 0, 120);
+  --background-color: rgba(255, 204, 76, 120);
+  --accent-color: rgba(102, 69, 0, 120);
+
+  background-color: var(--background-color);
+  color: (--accent-color);
 }
 
-/* 255 204 76 */
+* {
+  margin: 0;
+}
