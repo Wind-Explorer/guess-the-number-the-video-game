@@ -5,7 +5,7 @@
 <template>
   <div class="container">
     <!-- HTML elements for the component -->
-    <RouterView />
+    <h1>Generating random number...</h1>
   </div>
 </template>
 
