@@ -11,7 +11,7 @@
     </div>
     <div class="game-action-buttons">
       <button @click="$router.push('/generatingrandomnumber')">Start</button>
-      <button>High scores</button>
+      <button disabled>High scores</button>
     </div>
   </div>
 </template>
@@ -54,7 +54,11 @@
   transition: 0.2s;
 }
 
-.game-action-buttons button:hover {
+.game-action-buttons button:enabled:hover {
   transform: scale(1.2);
+}
+
+.game-action-buttons button:disabled {
+  opacity: 0.3;
 }
 </style>
